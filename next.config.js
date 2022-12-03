@@ -28,7 +28,7 @@ const nextConfig = withPWA({
     unoptimized: true,
   },
   assetPrefix,
-  // basePath,
+  basePath,
   reactStrictMode: true,
   swcMinify: true,
 });

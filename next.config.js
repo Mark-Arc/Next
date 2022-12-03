@@ -24,9 +24,6 @@ if (isGithubActions) {
   basePath = `/${repo}`;
 }
 const nextConfig = withPWA({
-  env: {
-    BACKEND_URL: basePath,
-  },
   images: {
     unoptimized: true,
   },

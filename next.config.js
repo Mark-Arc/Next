@@ -24,11 +24,11 @@ if (isGithubActions) {
   basePath = `/${repo}`;
 }
 const nextConfig = withPWA({
-  /* images: {
+  images: {
     unoptimized: true,
-  }, */
+  },
   assetPrefix,
-  basePath,
+  // basePath,
   reactStrictMode: true,
   swcMinify: true,
 });

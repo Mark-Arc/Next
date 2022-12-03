@@ -7,7 +7,6 @@ export default function Home() {
     <div className={styles.container}>
       <div className="flex items-center justify-center h-screen">
         <Image src={reactLogo} alt="sas" />
-        <Image src="/images/icon-192x192.png" alt="sasas" />
         <div className="text-black font-bold text-xl">Hello World!</div>
       </div>
     </div>

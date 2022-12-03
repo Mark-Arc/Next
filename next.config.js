@@ -26,6 +26,7 @@ const nextConfig = withPWA({
   env: {
     BACKEND_URL: basePath,
   },
+  imagesPublicPath: `${assetPrefix}/_next/static/images/`,
   assetPrefix,
   basePath,
   reactStrictMode: true,

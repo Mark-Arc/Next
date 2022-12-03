@@ -17,7 +17,7 @@ export default function Meta() {
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="Next PWA Template" />
       <meta name="application-name" content="Next PWA Template" />
-      <link rel="icon" type="image/x-icon" href={`${process.env.BACKEND_URL}/images/favicon.ico`} />
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
       <link
         rel="apple-touch-icon"
         href={`${process.env.BACKEND_URL}/images/apple-touch-icon.png`}
